@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Get Social</string>
+    <string name="search_by_location">Enter a city name</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:maxWidth="200dp"
+        android:id="@+id/eventName"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        />
+
+    <TextView
+        android:textSize="10dp"
+        android:layout_toLeftOf="@id/venueCity"
+        android:id="@+id/venueName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collosium" />
+    <TextView
+        android:textSize="10dp"
+        android:textAllCaps="true"
+        android:id="@+id/venueCity"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventName"
+        android:text="TextViewhggggghgfhg"
+        android:textAllCaps="true"
+        android:textSize="10dp" />
+    <TextView
+        android:id="@+id/minPrice"
+        android:layout_toLeftOf="@id/maxPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventName"
+        android:text="min"
+        android:textAllCaps="true"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/maxPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventName"
+        android:layout_alignParentRight="true"
+        android:text="max"
+        android:textAllCaps="true"
+        android:textSize="15dp"  />
+</RelativeLayout>
